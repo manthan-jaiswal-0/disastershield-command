@@ -137,12 +137,13 @@
     color: var(--color-foreground);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
+    letter-spacing: 0;
   }
 
   h1,
   h2,
   h3 {
-    letter-spacing: -0.015em;
+    letter-spacing: 0;
   }
 }
 
@@ -155,7 +156,7 @@
   font-size: 0.6875rem;
   line-height: 1rem;
   text-transform: uppercase;
-  letter-spacing: 0.09em;
+  letter-spacing: 0;
   font-weight: 600;
   color: var(--color-muted-foreground);
 }
