@@ -1,13 +1,13 @@
 # DisasterShield — build roadmap
 
-- [ ] Design system tokens (src/styles.css) — restrained civic palette, typography
-- [ ] Demo data + state store (incidents, reports, resources, alerts, lifecycle)
-- [ ] Shared shell: role-aware navigation (Citizen / Authority / Responder)
-- [ ] Citizen home, Report incident, Alerts, Safety guide, Data sources
-- [ ] Live risk map with filters + incident selection
-- [ ] Authority command center
-- [ ] Incident detail (evidence, verification, risk explainer, actions, timeline)
-- [ ] Resource coordination
-- [ ] Responder view with status lifecycle
-- [ ] Analytics
-- [ ] Head metadata on every route
+- [x] Design system tokens (src/styles.css) — restrained civic palette, typography
+- [x] Demo data + state store (incidents, reports, resources, alerts, lifecycle)
+- [x] Shared shell: role-aware navigation (Citizen / Authority / Responder)
+- [x] Citizen home, Report incident, Alerts, Safety guide, Data sources
+- [x] Live risk map with filters + incident selection
+- [x] Authority command center
+- [x] Incident detail (evidence, verification, risk explainer, actions, timeline)
+- [x] Resource coordination
+- [x] Responder view with status lifecycle
+- [x] Analytics
+- [x] Head metadata on every route
