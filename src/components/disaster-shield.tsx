@@ -126,7 +126,7 @@ export function Workflow({ active }: { active: string }) {
   return <div className="overflow-x-auto border-y bg-surface"><div className="flex min-w-[760px] items-center px-4 py-4">{steps.map((step, index) => <div key={step} className="flex flex-1 items-center"><div className="flex flex-col items-center gap-1.5"><span className={cn("grid size-6 place-items-center rounded-full border text-[10px] font-bold", index < activeIndex ? "border-ok bg-ok text-primary-foreground" : index === activeIndex ? "border-primary bg-primary text-primary-foreground" : "bg-surface text-muted-foreground")}>{index < activeIndex ? <CheckCircle2 className="size-3.5" /> : index + 1}</span><span className={cn("text-[10px] font-semibold", index === activeIndex ? "text-foreground" : "text-muted-foreground")}>{step}</span></div>{index < steps.length - 1 && <div className={cn("mb-5 h-px flex-1", index < activeIndex ? "bg-ok" : "bg-border")} />}</div>)}</div></div>;
 }
 
-export function SectorMap({ incidents, selectedId, onSelect, showResources = false }: { incidents: Incident[]; selectedId?: string; onSelect?: (id: string) => void; showResources?: boolean }) {
+export function SectorMap({ incidents, selectedId, onSelect, showResources = false }: { incidents: Incident[]; selectedId?: string | undefined; onSelect?: ((id: string) => void) | undefined; showResources?: boolean | undefined }) {
   const { resources } = useAppState();
   return <div className="relative min-h-[430px] overflow-hidden bg-surface-sunken hairline-grid" aria-label="Operational map of Chennai sectors">
     <div className="absolute left-[12%] top-[10%] h-[75%] w-[72%] rotate-[-5deg] rounded-[42%_58%_55%_45%] border-2 border-water/50 bg-water/10" />
