@@ -13,7 +13,7 @@ import { IncidentRow, Metric, Page, PriorityBadge, SectorMap, StageBadge, Workfl
 export function CommandPage() {
   const { incidents } = useAppState();
   const active = incidents.filter((item) => item.status !== "resolved");
-  const urgent = active[0];
+  const urgent = active[0] ?? incidents[0]!;
   return <Page title="Command centre" description={`${CITY.zone} · Live operational picture`} actions={<div className="flex items-center gap-2 text-xs text-muted-foreground"><Radio className="size-3.5 text-ok" /> 12 sources reporting normally</div>}>
     <div className="mb-5 grid divide-y border bg-surface sm:grid-cols-4 sm:divide-x sm:divide-y-0"><Metric label="Active incidents" value={active.length} detail="2 priority one" tone="danger" /><Metric label="People exposed" value="22,900" detail="Across 5 open areas" /><Metric label="Resources deployed" value="4 / 11" detail="2 en route or on site" /><Metric label="Median verification" value="12 min" detail="Today · down 3 min" tone="ok" /></div>
     <div className="grid gap-5 xl:grid-cols-[minmax(0,1.5fr)_minmax(340px,.7fr)]">
