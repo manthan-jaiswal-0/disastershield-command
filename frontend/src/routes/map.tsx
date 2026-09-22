@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { MapPage } from "@/components/pages";
+export const Route = createFileRoute("/map")({ head: () => ({ meta: [{ title: "Live Risk Map — DisasterShield" }, { name: "description", content: "Live disaster risk, impact, and response resource map for Mumbai." }, { property: "og:title", content: "Live Risk Map — DisasterShield" }, { property: "og:description", content: "Live disaster risk, impact, and response resource map for Mumbai." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }), component: MapPage });

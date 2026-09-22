@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "DEMO-W01",
+        "ward_name": "Demo Ward 1",
+        "municipality": "Demo Municipality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.87,
+              19.068
+            ],
+            [
+              72.885,
+              19.068
+            ],
+            [
+              72.885,
+              19.083
+            ],
+            [
+              72.87,
+              19.083
+            ],
+            [
+              72.87,
+              19.068
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

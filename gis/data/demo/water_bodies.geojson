@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "water_id": "DEMO-WB01",
+        "name": "Demo Water Body",
+        "type": "lake"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.883,
+          19.076
+        ]
+      }
+    }
+  ]
+}

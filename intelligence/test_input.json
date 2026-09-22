@@ -1,0 +1,339 @@
+{
+    "p1_severe_flooding": {
+        "incident_id": "INC-BM-P1",
+        "timestamp": "2026-09-13T20:00:00Z",
+        "location": {
+            "location_id": "WARD-01-CENTRAL",
+            "location_name": "Downtown Metro Corridor",
+            "latitude": 12.9716,
+            "longitude": 77.5946
+        },
+        "rainfall": {
+            "intensity_mm_per_hour": 95.0,
+            "duration_minutes": 60,
+            "trend": "high"
+        },
+        "water_environment": {
+            "water_level": 1.35,
+            "water_level_unit": "m",
+            "trend": "rising",
+            "sensor_status": "valid"
+        },
+        "citizen_reports": [
+            {
+                "id": "CR-101",
+                "report": "Underpass submerged completely",
+                "timestamp": "2026-09-13T19:40:00Z"
+            },
+            {
+                "id": "CR-102",
+                "report": "Vehicles trapped in deep water",
+                "timestamp": "2026-09-13T19:45:00Z"
+            },
+            {
+                "id": "CR-103",
+                "report": "Water level rising rapidly",
+                "timestamp": "2026-09-13T19:50:00Z"
+            }
+        ],
+        "image_evidence": [
+            {
+                "id": "IMG-101",
+                "assessment": "Submerged roadway and stalled bus",
+                "quality": "high",
+                "timestamp": "2026-09-13T19:48:00Z"
+            }
+        ],
+        "gis": {
+            "population_exposure": "high",
+            "road_exposure": "high",
+            "critical_infrastructure": [
+                "major_transport_corridor",
+                "metro_central_station",
+                "district_hospital"
+            ],
+            "vulnerability": "high"
+        }
+    },
+    "p2_elevated_risk": {
+        "incident_id": "INC-BM-P2",
+        "timestamp": "2026-09-13T20:00:00Z",
+        "location": {
+            "location_id": "WARD-05-NORTH",
+            "location_name": "North Industrial Avenue",
+            "latitude": 13.0358,
+            "longitude": 77.5970
+        },
+        "rainfall": {
+            "intensity_mm_per_hour": 55.0,
+            "duration_minutes": 60,
+            "trend": "stable"
+        },
+        "water_environment": {
+            "water_level": 0.65,
+            "water_level_unit": "m",
+            "trend": "stable",
+            "sensor_status": "valid"
+        },
+        "citizen_reports": [
+            {
+                "id": "CR-201",
+                "report": "Water ponding along curb lanes",
+                "timestamp": "2026-09-13T19:50:00Z"
+            }
+        ],
+        "image_evidence": [],
+        "gis": {
+            "population_exposure": "moderate",
+            "road_exposure": "high",
+            "critical_infrastructure": [
+                "freight_corridor"
+            ],
+            "vulnerability": "moderate"
+        }
+    },
+    "p3_low_signal_monitoring": {
+        "incident_id": "INC-BM-P3",
+        "timestamp": "2026-09-13T20:00:00Z",
+        "location": {
+            "location_id": "WARD-09-OUTER",
+            "location_name": "Outer Ring Residential",
+            "latitude": 12.9141,
+            "longitude": 77.6322
+        },
+        "rainfall": {
+            "intensity_mm_per_hour": 52.0,
+            "duration_minutes": 30,
+            "trend": "decreasing"
+        },
+        "water_environment": {
+            "water_level": 0.15,
+            "water_level_unit": "m",
+            "trend": "stable",
+            "sensor_status": "valid"
+        },
+        "citizen_reports": [],
+        "image_evidence": [],
+        "gis": {
+            "population_exposure": "low",
+            "road_exposure": "low",
+            "critical_infrastructure": [],
+            "vulnerability": "low"
+        }
+    },
+    "conflicting_signals": {
+        "incident_id": "INC-BM-CONFLICT",
+        "timestamp": "2026-09-13T20:00:00Z",
+        "location": {
+            "location_id": "WARD-07-EAST",
+            "location_name": "East Lake Basin",
+            "latitude": 12.9592,
+            "longitude": 77.6974
+        },
+        "rainfall": {
+            "intensity_mm_per_hour": 5.0,
+            "duration_minutes": 60,
+            "trend": "stable"
+        },
+        "water_environment": {
+            "water_level": 1.1,
+            "water_level_unit": "m",
+            "trend": "rising",
+            "sensor_status": "valid"
+        },
+        "citizen_reports": [
+            {
+                "id": "CR-401",
+                "report": "Lake overflow flooding onto roadway",
+                "timestamp": "2026-09-13T19:50:00Z"
+            },
+            {
+                "id": "CR-402",
+                "report": "Water level rising rapidly despite clear sky",
+                "timestamp": "2026-09-13T19:55:00Z"
+            }
+        ],
+        "image_evidence": [
+            {
+                "id": "IMG-401",
+                "assessment": "Water overflowing drainage culvert",
+                "quality": "medium",
+                "timestamp": "2026-09-13T19:52:00Z"
+            }
+        ],
+        "gis": {
+            "population_exposure": "moderate",
+            "road_exposure": "high",
+            "critical_infrastructure": [
+                "lake_sluice_gate"
+            ],
+            "vulnerability": "moderate"
+        }
+    },
+    "unreliable_sensor": {
+        "incident_id": "INC-BM-UNRELIABLE",
+        "timestamp": "2026-09-13T20:00:00Z",
+        "location": {
+            "location_id": "WARD-03-WEST",
+            "location_name": "West Culvert Station",
+            "latitude": 12.9850,
+            "longitude": 77.5533
+        },
+        "rainfall": {
+            "intensity_mm_per_hour": 65.0,
+            "duration_minutes": 60,
+            "trend": "high"
+        },
+        "water_environment": {
+            "water_level": 0.85,
+            "water_level_unit": "m",
+            "trend": "rising",
+            "sensor_status": "unreliable"
+        },
+        "citizen_reports": [
+            {
+                "id": "CR-501",
+                "report": "Water accumulating on access ramp",
+                "timestamp": "2026-09-13T19:48:00Z"
+            }
+        ],
+        "image_evidence": [],
+        "gis": {
+            "population_exposure": "moderate",
+            "road_exposure": "moderate",
+            "critical_infrastructure": [],
+            "vulnerability": "low"
+        }
+    },
+    "error_offline_sensor": {
+        "incident_id": "INC-BM-SENSOR-ERROR",
+        "timestamp": "2026-09-13T20:00:00Z",
+        "location": {
+            "location_id": "WARD-11-SOUTH",
+            "location_name": "South Underpass",
+            "latitude": 12.9200,
+            "longitude": 77.5800
+        },
+        "rainfall": {
+            "intensity_mm_per_hour": 58.0,
+            "duration_minutes": 60,
+            "trend": "high"
+        },
+        "water_environment": {
+            "water_level": 0.0,
+            "water_level_unit": "m",
+            "trend": "stable",
+            "sensor_status": "error"
+        },
+        "citizen_reports": [
+            {
+                "id": "CR-601",
+                "report": "Underpass drain overflowing",
+                "timestamp": "2026-09-13T19:55:00Z"
+            }
+        ],
+        "image_evidence": [],
+        "gis": {
+            "population_exposure": "high",
+            "road_exposure": "high",
+            "critical_infrastructure": [
+                "metro_viaduct"
+            ],
+            "vulnerability": "low"
+        }
+    },
+    "missing_optional_fields": {
+        "incident_id": "INC-BM-MINIMAL",
+        "rainfall": {
+            "intensity_mm_per_hour": 55.0
+        }
+    },
+    "exact_threshold_0_5m": {
+        "incident_id": "INC-BM-THRESH-05",
+        "rainfall": {
+            "intensity_mm_per_hour": 15.0,
+            "duration_minutes": 60
+        },
+        "water_environment": {
+            "water_level": 0.5,
+            "water_level_unit": "m",
+            "trend": "stable",
+            "sensor_status": "valid"
+        },
+        "citizen_reports": [
+            {
+                "id": "CR-801",
+                "report": "Water reaching curb level",
+                "timestamp": "2026-09-13T19:50:00Z"
+            }
+        ]
+    },
+    "exact_threshold_1_0m": {
+        "incident_id": "INC-BM-THRESH-10",
+        "rainfall": {
+            "intensity_mm_per_hour": 15.0,
+            "duration_minutes": 60
+        },
+        "water_environment": {
+            "water_level": 1.0,
+            "water_level_unit": "m",
+            "trend": "stable",
+            "sensor_status": "valid"
+        },
+        "citizen_reports": [
+            {
+                "id": "CR-901",
+                "report": "Water deep enough to submerge car tires",
+                "timestamp": "2026-09-13T19:55:00Z"
+            }
+        ]
+    },
+    "rainfall_threshold_boundaries": {
+        "incident_id": "INC-BM-RAIN-BOUNDARIES",
+        "rainfall": {
+            "intensity_mm_per_hour": 50.0,
+            "duration_minutes": 60
+        }
+    },
+    "high_vulnerability_escalation": {
+        "incident_id": "INC-BM-HIGH-VULN",
+        "rainfall": {
+            "intensity_mm_per_hour": 55.0,
+            "duration_minutes": 60
+        },
+        "water_environment": {
+            "water_level": 0.2,
+            "water_level_unit": "m",
+            "trend": "stable",
+            "sensor_status": "valid"
+        },
+        "gis": {
+            "population_exposure": "moderate",
+            "road_exposure": "moderate",
+            "critical_infrastructure": [],
+            "vulnerability": "high"
+        }
+    },
+    "no_incident_signal": {
+        "incident_id": "INC-BM-CLEAR",
+        "rainfall": {
+            "intensity_mm_per_hour": 0.0,
+            "duration_minutes": 60,
+            "trend": "stable"
+        },
+        "water_environment": {
+            "water_level": 0.05,
+            "water_level_unit": "m",
+            "trend": "stable",
+            "sensor_status": "valid"
+        },
+        "citizen_reports": [],
+        "image_evidence": [],
+        "gis": {
+            "population_exposure": "low",
+            "road_exposure": "low",
+            "critical_infrastructure": [],
+            "vulnerability": "low"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+# Global Exclusions
+node_modules/
+dist/
+.output/
+.env
+venv/
+venv311/
+__pycache__/
+*.pyc
+.tsbuildinfo
+.DS_Store

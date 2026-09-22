@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "drain_id": "DEMO-D01",
+        "name": "Demo Drain",
+        "type": "storm_drain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8795,
+          19.0735
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "facility_id": "DEMO-SCH01",
+        "name": "Demo School A",
+        "type": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.876,
+          19.075
+        ]
+      }
+    }
+  ]
+}

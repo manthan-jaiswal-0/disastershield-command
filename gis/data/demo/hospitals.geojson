@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "facility_id": "DEMO-H01",
+        "name": "Demo Hospital A",
+        "type": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8755,
+          19.0785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "facility_id": "DEMO-H02",
+        "name": "Demo Hospital B",
+        "type": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.889,
+          19.082
+        ]
+      }
+    }
+  ]
+}

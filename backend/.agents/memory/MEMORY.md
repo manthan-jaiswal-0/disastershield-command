@@ -1,0 +1,1 @@
+- [API typecheck memory](api-typecheck.md) — the full monorepo TypeScript check can exceed the available Node heap for this backend; keep focused checks alongside the bundle.

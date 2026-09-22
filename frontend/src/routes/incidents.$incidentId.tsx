@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { IncidentPage } from "@/components/pages";
+export const Route = createFileRoute("/incidents/$incidentId")({ head: () => ({ meta: [{ title: "Incident Review — DisasterShield" }, { name: "description", content: "Review verified evidence, risk factors, recommendations and response history." }, { property: "og:title", content: "Incident Review — DisasterShield" }, { property: "og:description", content: "Review verified evidence, risk factors, recommendations and response history." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }), component: IncidentPage });

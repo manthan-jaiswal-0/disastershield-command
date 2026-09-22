@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "facility_id": "DEMO-F01",
+        "name": "Demo Fire Station A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.874,
+          19.074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "facility_id": "DEMO-F02",
+        "name": "Demo Fire Station B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.892,
+          19.07
+        ]
+      }
+    }
+  ]
+}

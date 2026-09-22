@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "DEMO-G01",
+        "population": 1200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.874,
+          19.073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "DEMO-G02",
+        "population": 1800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.878,
+          19.076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "DEMO-G03",
+        "population": 900
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.882,
+          19.079
+        ]
+      }
+    }
+  ]
+}

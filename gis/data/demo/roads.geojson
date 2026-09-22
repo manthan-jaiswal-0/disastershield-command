@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "DEMO-R01",
+        "name": "Demo Road 1",
+        "road_type": "primary"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.868,
+            19.07
+          ],
+          [
+            72.889,
+            19.081
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "DEMO-R02",
+        "name": "Demo Road 2",
+        "road_type": "secondary"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.87,
+            19.082
+          ],
+          [
+            72.889,
+            19.072
+          ]
+        ]
+      }
+    }
+  ]
+}

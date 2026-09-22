@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "asset_id": "DEMO-CI01",
+        "name": "Demo Railway Station",
+        "type": "railway_station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.881,
+          19.079
+        ]
+      }
+    }
+  ]
+}

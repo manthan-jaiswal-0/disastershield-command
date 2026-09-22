@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "facility_id": "DEMO-P01",
+        "name": "Demo Police Station A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.879,
+          19.077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "facility_id": "DEMO-P02",
+        "name": "Demo Police Station B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.865,
+          19.081
+        ]
+      }
+    }
+  ]
+}
