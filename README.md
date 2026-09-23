@@ -1,13 +1,17 @@
 # DisasterShield Command
 
-Unified command platform for urban flooding incident management, GIS evaluation, and intelligent operational dispatch.
+Unified command platform for urban flooding incident management, GIS intelligence, and human-controlled response coordination.
+
+**Governance & Architecture:**
+- **AI recommends. Humans decide.**
+- **Resource assignment occurs only after human approval.**
 
 ## Repository Structure
 
 - /frontend - TanStack Start / React Command Dashboard
 - /backend - Node/Express/Mongoose API Server
 - /gis - FastAPI GIS and Human Impact evaluation service
-- /intelligence - FastAPI Deterministic Decision-Support Engine
+- /intelligence - FastAPI deterministic/rule-based engine for decision support
 
 ## Getting Started
 

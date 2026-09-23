@@ -2,10 +2,15 @@
 node_modules/
 dist/
 .output/
+coverage/
+logs/
 .env
+.env.*
+!.env.example
 venv/
 venv311/
 __pycache__/
 *.pyc
 .tsbuildinfo
+.wrangler/
 .DS_Store
